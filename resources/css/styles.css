@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+html{
+    font-family: 'Aclonica', sans-serif;
+    background-image: url("../images/web_background.gif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 16px;
+    height: 100%;
+}
+
+body{
+    margin: 0%;
+}
+
+header{
+    height: 35rem;
+    display: block;
+    text-align: center;
+}
+
+h2{
+    font-size: 107px;
+}
+
+header img{
+    
+    width: 50rem;
+    height: auto;
+}
+
+.about{
+    background-color: black;
+    color: whitesmoke;
+    height: 25rem;
+    width: 100%;
+}
+
+.about h2{
+    text-align: left;
+    margin-left: 5%;    
+    padding-top: 3rem;
+}
+
+.about p{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+
+.gallery{
+    height: auto;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.gallery h2{
+    text-align: left;
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.image-container{
+    display: inline-flex;
+}
+
+.image-container img{
+    width: 20%;
+    height: auto;
+}
+
+@media only screen and (max-width: 800px){
+    .image-container{
+        display: block;
+    }
+    
+    .image-container img{
+        min-width: 20rem;
+        height: auto;
+    }
+}
+
+
+.more{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.more h2{
+    margin-left: 5%;
+    padding-top: 3rem;
+}
+
+.more p{
+    margin-left: 10%;
+    padding-bottom:  5%;
+}
